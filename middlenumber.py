@@ -1,0 +1,5 @@
+print('Enter list of elements')
+list=input()
+newList=list.split(' ')
+midIndex=int(len(newList)/2)
+print(f'middle element is {newList[midIndex]}')
