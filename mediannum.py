@@ -1,0 +1,7 @@
+print('Enter list of elements')
+list=input()
+newList=list.split(' ')
+newList.sort()
+midIndex=int(len(newList)/2)
+print(newList)
+print(f'median number in list is {newList[midIndex+1]}')
